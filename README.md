@@ -10,8 +10,8 @@ This project implements Bayesian Convolutional Neural Networks using PyTorch. Be
 To install PyTorch and other necessary libraries, run the following command:
 ```bash
 pip install torch torchvision numpy
-
-References
+```
+### References
 This implementation is based on the following papers and resources:
 
 @article{shridhar2019comprehensive,
