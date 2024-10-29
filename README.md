@@ -11,20 +11,14 @@ To install PyTorch and other necessary libraries, run the following command:
 ```bash
 pip install torch torchvision numpy
 ```
-### References
-This implementation is based on the following papers and resources:
+## References
 
-@article{shridhar2019comprehensive,
-  title={A comprehensive guide to bayesian convolutional neural network with variational inference},
-  author={Shridhar, Kumar and Laumann, Felix and Liwicki, Marcus},
-  journal={arXiv preprint arXiv:1901.02731},
-  year={2019}
-}
+This implementation is based on the following academic papers:
 
-@article{shridhar2018uncertainty,
-  title={Uncertainty estimations by softplus normalization in bayesian convolutional neural networks with variational inference},
-  author={Shridhar, Kumar and Laumann, Felix and Liwicki, Marcus},
-  journal={arXiv preprint arXiv:1806.05978},
-  year={2018}
-}
-}
+- Kumar Shridhar, Felix Laumann, Marcus Liwicki. "A comprehensive guide to Bayesian Convolutional Neural Network with variational inference." *arXiv preprint arXiv:1901.02731* (2019).
+
+- Kumar Shridhar, Felix Laumann, Marcus Liwicki. "Uncertainty estimations by softplus normalization in Bayesian Convolutional Neural Networks with variational inference." *arXiv preprint arXiv:1806.05978* (2018).
+
+## License
+
+Distributed under the MIT License. See LICENSE for more information.
