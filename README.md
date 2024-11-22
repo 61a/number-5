@@ -1,3 +1,29 @@
+# Bayesian Neural Networks for Pulsar Candidate Identification
+
+## Description
+This project implements Bayesian Convolutional Neural Networks for pulsar candidate identification, addressing distribution discrepancies through multimodal incremental learning. The implementation is based on PyTorch and focuses on handling evolving RFI environments.
+
+## Key Features
+- Bayesian CNN implementation with variational inference
+- Multimodal data processing for pulsar diagnostic plots
+- Incremental learning capability
+- Distribution shift handling
+- Uncertainty estimation
+
+## Project Structure
+```python
+.
+├── loss.py                         # Loss function implementations
+├── main.py                         # Main entry point
+├── multimodel.py                   # Multimodal model architecture
+├── multimodel_four.py             # Four-input multimodal implementation
+├── multimodel_fourBayesian.py     # Bayesian version of four-input model
+├── training.py                    # Training utilities
+├── training_CL.py                 # Continual learning training
+├── training_four.py              # Four-input model training
+└── training_four_Bayesian.py     # Bayesian model training
+
+
 ## Software and Tools
 
 This project implements Bayesian Convolutional Neural Networks using PyTorch. Below are the main tools and libraries that have been utilized:
@@ -11,6 +37,8 @@ To install PyTorch and other necessary libraries, run the following command:
 ```bash
 pip install torch torchvision numpy
 ```
+
+
 ## References
 
 This implementation is based on the following academic papers:
