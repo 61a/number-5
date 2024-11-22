@@ -22,7 +22,7 @@ This project implements Bayesian Convolutional Neural Networks for pulsar candid
 ├── training_CL.py                 # Continual learning training
 ├── training_four.py              # Four-input model training
 └── training_four_Bayesian.py     # Bayesian model training
-
+```
 
 ## Software and Tools
 
